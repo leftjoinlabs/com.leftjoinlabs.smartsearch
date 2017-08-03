@@ -50,6 +50,6 @@
     entered to create a new contact&lt;/strong&gt;.&lt;/li&gt;
     &lt;/ul&gt;</comments>
   <civix>
-    <namespace>CRM/Smartsearch</namespace>
+    <namespace>CRM/SmartSearch</namespace>
   </civix>
 </extension>

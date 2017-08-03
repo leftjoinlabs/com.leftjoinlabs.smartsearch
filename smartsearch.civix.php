@@ -128,14 +128,14 @@ function _smartsearch_civix_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) 
 }
 
 /**
- * @return CRM_Smartsearch_Upgrader
+ * @return CRM_SmartSearch_Upgrader
  */
 function _smartsearch_civix_upgrader() {
-  if (!file_exists(__DIR__ . '/CRM/Smartsearch/Upgrader.php')) {
+  if (!file_exists(__DIR__ . '/CRM/SmartSearch/Upgrader.php')) {
     return NULL;
   }
   else {
-    return CRM_Smartsearch_Upgrader_Base::instance();
+    return CRM_SmartSearch_Upgrader_Base::instance();
   }
 }
 
