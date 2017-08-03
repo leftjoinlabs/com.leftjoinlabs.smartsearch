@@ -1,26 +1,54 @@
 <?xml version="1.0"?>
 <extension key="com.leftjoinlabs.smartsearch" type="module">
   <file>smartsearch</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Smart Search</name>
+  <description>
+    Smart Search greatly speeds up the task of identifying, creating, and
+    updating single contact records.
+  </description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Sean Madsen</author>
     <email>sean@seanmadsen.com</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
-    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+    <url desc="Main Extension Page">
+      https://github.com/leftjoinlabs/com.leftjoinlabs.smartsearch
+    </url>
+    <url desc="Documentation">
+      https://github.com/leftjoinlabs/com.leftjoinlabs.smartsearch
+    </url>
+    <url desc="Support">
+      https://github.com/leftjoinlabs/com.leftjoinlabs.smartsearch/issues
+    </url>
+    <url desc="Licensing">
+      http://www.gnu.org/licenses/agpl-3.0.html
+    </url>
   </urls>
   <releaseDate>2017-08-03</releaseDate>
-  <version>1.0</version>
+  <version>0.1</version>
   <develStage>alpha</develStage>
   <compatibility>
     <ver>4.7</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>&lt;h4 id=&quot;use-cases&quot;&gt;Use cases&lt;/h4&gt;
+    &lt;ul&gt;
+    &lt;li&gt;You want to &lt;strong&gt;copy-paste someone's entire email
+    signature&lt;/strong&gt; into a search field and get to their contact record
+    with one click.&lt;/li&gt;
+    &lt;li&gt;You want to view a frequently-used contact record and get there
+    with &lt;strong&gt;minimal keystrokes&lt;/strong&gt;.&lt;/li&gt;
+    &lt;li&gt;You found the right contact in your search, but it's missing
+    some of the info you have. You want to &lt;strong&gt;quickly add the missing
+    info&lt;/strong&gt; to the contact before choosing it.&lt;/li&gt;
+    &lt;li&gt;If you can't find a contact, you want to keep entering more
+    info to search in &lt;strong&gt;several fields in parallel&lt;/strong&gt;,
+    so that even if some important fields have typos, you can still find the
+    contact if it exists.&lt;/li&gt;
+    &lt;li&gt;You searched for someone and determined they're not in the
+    database. Now you'd like to &lt;strong&gt;use the text you already
+    entered to create a new contact&lt;/strong&gt;.&lt;/li&gt;
+    &lt;/ul&gt;</comments>
   <civix>
     <namespace>CRM/Smartsearch</namespace>
   </civix>
