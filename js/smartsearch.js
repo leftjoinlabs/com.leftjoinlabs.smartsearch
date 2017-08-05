@@ -7,9 +7,10 @@
   menu.find('#crm-qsearch').remove();
 
   // Add Smart Search link to the main menu
-  // TODO figure out how to make the create a pop-up window
   menu.find('li.crm-link-home')
-    .after('<li class="menumain crm-SmartSearch"><a href="/civicrm/smartsearch">SS</a></li>');
+    .after('<li class="menumain crm-SmartSearch">' +
+      '  <a class="crm-popup" href="/civicrm/smartsearch">SS</a>' +
+      '</li>');
 
 })(CRM.$);
 
