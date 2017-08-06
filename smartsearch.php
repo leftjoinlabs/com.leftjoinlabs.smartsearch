@@ -152,5 +152,6 @@ function smartsearch_civicrm_navigationMenu(&$menu) {
 
 function smartsearch_civicrm_coreResourceList(&$list, $region) {
   Civi::resources()->addScriptFile('com.leftjoinlabs.smartsearch', 'js/smartsearch.js', 100, 'page-footer');
+  Civi::resources()->addStyleFile('com.leftjoinlabs.smartsearch', 'css/smartsearch.css', 999,'html-header');
 }
 

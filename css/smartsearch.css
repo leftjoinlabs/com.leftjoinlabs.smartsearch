@@ -1,0 +1,16 @@
+
+#civicrm-menu .crm-SmartSearch a {
+  display: block;
+  width: 35px;
+  background: #eaeaea;
+  height: 100%;
+  border-radius: 3px;
+  color: #6d6d6d;
+  padding: 0 5px;
+  text-align: right;
+}
+
+#civicrm-menu .crm-SmartSearch a:hover {
+  background: white;
+  color: #2c2c2c;
+}

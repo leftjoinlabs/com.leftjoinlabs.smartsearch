@@ -9,7 +9,9 @@
   // Add Smart Search link to the main menu
   menu.find('li.crm-link-home')
     .after('<li class="menumain crm-SmartSearch">' +
-      '  <a class="crm-popup" href="/civicrm/smartsearch">SS</a>' +
+      '  <a class="crm-popup" title="Smart Search" href="/civicrm/smartsearch">' +
+      '    <i class="crm-i fa-search"></i>' +
+      '  </a>' +
       '</li>');
 
 })(CRM.$);
