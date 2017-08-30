@@ -2,6 +2,10 @@
 
 Smart Search is a [CiviCRM](https://civicrm.org) extension which greatly speeds up the task of identifying, creating, and updating single contact records.
 
+## Status
+
+**This extension is still in early development and not yet ready for use or testing.**
+
 ## Use cases 
 
  
