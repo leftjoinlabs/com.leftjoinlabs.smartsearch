@@ -1,1 +1,2 @@
-<p>TODO</p>
+<div id="smartsearch-page">
+</div>

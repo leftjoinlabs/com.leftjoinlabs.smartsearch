@@ -2,6 +2,12 @@
 
 require_once 'smartsearch.civix.php';
 
+function smartsearch_civicrm_alterTemplateFile($formName, &$form, $context, &$tplName) {
+  $loader = new \Civi\Angular\AngularLoader();
+  $loader->setModules(array('crmUi', 'crmUtil', 'smartsearch'));
+  $loader->load();
+}
+
 /**
  * Implements hook_civicrm_config().
  *

@@ -1,16 +1,30 @@
 
-#civicrm-menu .crm-SmartSearch a {
+#civicrm-menu #smartsearch-menu-link a {
   display: block;
   width: 35px;
   background: #eaeaea;
   height: 100%;
   border-radius: 3px;
-  color: #6d6d6d;
+  color: #7d7d7d;
   padding: 0 5px;
   text-align: right;
+  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+  outline: none;
 }
 
-#civicrm-menu .crm-SmartSearch a:hover {
+#civicrm-menu #smartsearch-menu-link a:hover {
   background: white;
   color: #2c2c2c;
+}
+
+#smartsearch-container {
+  display: flex;
+}
+
+#smartsearch-search-pane {
+  background: #bae2ad;
+}
+
+#smartsearch-action-pane {
+  background: #b4bbe2;
 }

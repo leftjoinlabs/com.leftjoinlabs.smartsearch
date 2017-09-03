@@ -9,15 +9,9 @@
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Sean Madsen</author>
-    <email>sean@seanmadsen.com</email>
+    <email>sean@leftjoinlabs.com</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">
-      https://github.com/leftjoinlabs/com.leftjoinlabs.smartsearch
-    </url>
-    <url desc="Documentation">
-      https://github.com/leftjoinlabs/com.leftjoinlabs.smartsearch
-    </url>
     <url desc="Support">
       https://github.com/leftjoinlabs/com.leftjoinlabs.smartsearch/issues
     </url>
