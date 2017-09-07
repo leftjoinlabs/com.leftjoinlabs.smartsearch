@@ -3,7 +3,7 @@
   // Add markup for the modal dialog with the Smart Search app within
   $('body').append(
       '<div id="smartsearch-dialog" title="Smart Search">' +
-      '  <div id="smartsearch-app">' +
+      '  <div id="smartsearch-app" ng-controller="SmartsearchSearchCtl">' +
       '    <ng-include src="\'~/smartsearch/SearchCtl.html\'" />' +
       '  </div>' +
       '</div>');

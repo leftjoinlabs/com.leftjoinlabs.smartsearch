@@ -19,12 +19,19 @@
 
 #smartsearch-container {
   display: flex;
+  height: 400px;
+  background: #eaeaea;
+  padding: 5px;
 }
 
 #smartsearch-search-pane {
-  background: #bae2ad;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+#smartsearch-search-input {
+  width: 100%;
 }
 
 #smartsearch-action-pane {
-  background: #b4bbe2;
 }
